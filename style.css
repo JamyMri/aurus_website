@@ -1,0 +1,148 @@
+body{
+    background-image: url(/ressources/images/background_pic.jpg); /* image de fond */
+    background-size: cover; /* l'image couvre tout l'écran selon ses dimensions */
+    background-repeat: no-repeat; /* l'image ne se répète pas */
+    margin: 0; /* enlève les marges */
+    background-color: #C7BEBD; /* couleur de la page */
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 200px; /* taille du logo */
+    height: auto; /* taille du logo */
+    position: absolute; /* placement libre sur la page */
+    top: 50px; /* logo 50px du haut */
+    left: 50px; /* logo 50px de la gauche */
+}
+#usericon_placement{
+    width: 70px; /* largeur de l'icône */
+    height: auto; /* hauteur automatique pour pas déformer l'image */
+    position: absolute; /* placement libre sur la page */
+    top: 50px; /* 50px du haut */
+    right: 75px; /* 75px de la droite */
+}
+
+
+
+/* BARRE DE RECHERCHE */
+.button {
+    display: flex; /* met tous les éléments sur une ligne */
+    align-items: center; /* centre verticalement les éléments */
+    background-color: #A6A6A4; /* couleur du rectangle gris clair */
+    border-radius: 25px; /* coins arrondis du rectangle */
+    padding: 5px 15px; /* espace intérieur entre le contenu et les bords */
+    height: 50px; /* hauteur totale de la barre */
+    width: 80%; /* largeur relative à la taille de l’écran */
+    max-width: 600px; /* limite la largeur maximale */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1); /* ajoute ombre sous la barre */
+    position: absolute; /* position libre sur la page */
+    top: 65%; /* position verticale (environ au centre bas de l’écran) */
+    left: 50%; /* position horizontale au centre */
+    transform: translate(-50%, -50%); /* recentre parfaitement la barre */
+    z-index: 10; /* place la barre au-dessus du reste du contenu */
+}
+
+/* Icône du menu à gauche */
+.bar_icon {
+    font-size: 20px; /* taille du symbole */
+    margin-right: 10px; /* espace entre l’icône et le champ de texte */
+    cursor: pointer; /* curseur interactif (main) */
+}
+
+/* TEXTE  */
+#w-text {
+    font-family: "PT Sans", sans-serif;
+    position: absolute;   /* placement libre sur la page */
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none; /* optionnel, pour que le texte ne capture pas les clics */
+}
+
+/* TEXTE EN BAS DE PAGE A GAUCHE */
+#foot-text-left{
+    color: black; /* COULEUR DU TEXTE */
+    font-family: "alfacad", sans-serif; /* POLICE DU TEXTE */
+    font-weight: 400; /* "EPAISSEUR" DE LA POLICE */
+    position: absolute; /* placement libre sur la page */
+    text-align: center; /* ALIGNE LE TEXTE AU CENTRE DU PARAGRAPHE */
+    transform: translate(-50%); /* décale l’élément vers la gauche de la moitié de sa largeur pour le centrer */
+    top: 52em; /* position à partir du haut */
+    left: 45em; /* position à partir de la gauche */
+}
+/* BOUTON LOC VOITURES */
+#loc-car-text:hover{
+    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
+    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
+}
+/* BOUTON LOC UTILITAIRES */
+#loc-utilities-text:hover{
+    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
+    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
+}
+
+/* BOUTON NOS AGENCES */
+#our-agency-text:hover{
+    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
+    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
+}
+
+/* TEXTE EN BAS DE PAGE A DROITE */
+#foot-text-right{
+    color: black; /* COULEUR DU TEXTE */
+    font-family: "alfacad", sans-serif; /* POLICE DU TEXTE */
+    font-weight: 400; /* "EPAISSEUR" DE LA POLICE */
+    position: absolute; /* pour pouvoir centrer horizontalement */
+    text-align: center; /* ALIGNE LE TEXTE AU CENTRE DU PARAGRAPHE */
+    transform: translate(-50%); /* décale l’élément vers la gauche de la moitié de sa largeur pour le centrer */
+    top: 52em; /* position à partir du haut */
+    right: 40em; /* position à partir de la droite */
+}
+
+/* BOUTON AIDE ET CONTACT */
+#help-contact-text:hover{
+    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
+    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
+}
+/* BOUTON CGV ET CGU */
+#cgv-cgu-text:hover{
+    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
+    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
+}
+
+/* LOGO APPSTORE ET GOOGLE PLAY STORE */
+#appstore-logo{
+    position: absolute; /* placement libre sur la page */
+    top: 55em; /* position à partir du haut */
+    left: 3em; /* position à partir de la gauche */
+}
+#playstore-logo{
+    position: absolute; /* placement libre sur la page */
+    top: 55em; /* position à partir du haut */
+    left: 15em; /* position à partir de la gauche */
+}
+
+/* LOGOS RESEAUX SOCIAUX A DROITE */
+#twitter-logo{
+    position: absolute; /* placement libre sur la page */
+    top: 55em; /* position à partir du haut */
+    right: 15em; /* position à partir de la droite */
+}
+#instagram-logo{
+    position: absolute; /* placement libre sur la page */
+    top: 55em; /* position à partir du haut */
+    right: 10em; /* position à partir de la droite */
+}
+#linkedin-logo{
+    position: absolute; /* placement libre sur la page */
+    top: 55em; /* position à partir du haut */
+    right: 5em; /* position à partir de la droite */
+}
+
+#ptit_texte_en_bas{
+    position: absolute;
+    font-family: "alfacad", sans-serif;
+    top: 62em;
+    right: 58em;
+    color: black ;
+}

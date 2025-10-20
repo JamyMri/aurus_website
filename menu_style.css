@@ -1,0 +1,99 @@
+.parentmenu{
+    display: none;
+    position: absolute;
+}
+
+#menu-toggle:checked ~ .parentmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu{
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 1px;
+    border-radius: 25px;
+    height: 8em;
+    width: 37em;
+
+}
+
+.choix {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style: none;
+    padding: 0;   
+}
+
+#menu_text{
+    color: white;
+    font-family: "PT Sans", sans-serif;
+}
+
+
+.choix li{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 13px 20px;
+    border-radius: 80px;
+    width: 15em;
+    text-align: center;
+}
+
+.choix li:hover{
+    transform: scale(1.05);
+}
+
+
+/* LOGOS SUR DANS LE MENU */
+
+#berline-logo{
+    position: absolute;
+    width: auto;
+    height: 35px;
+    top: 1.2em;
+    left: 3em;
+    background: rgba(171, 171, 186, 1);   
+    border-radius: 100px;
+    background-size: 50em;
+}
+
+#citadine-logo{
+    position: absolute;
+    width: auto;
+    height: 35px;
+    top: 1.2em;
+    left: 21em;
+    background: rgba(171, 171, 186, 1);   
+    border-radius: 100px;
+    background-size: 50em;
+}
+
+#suv-logo{
+    position: absolute;
+    width: auto;
+    height: 35px;
+    top: 4.8em;
+    left: 3em;
+    background: rgba(171, 171, 186, 1);   
+    border-radius: 100px;
+    background-size: 50em;
+}
+
+#utilitaires-logo{
+    position: absolute;
+    width: auto;
+    height: 35px;
+    top: 4.7em;
+    left: 21em;
+    background: rgba(171, 171, 186, 1);   
+    border-radius: 100px;
+    background-size: 50em;
+}
