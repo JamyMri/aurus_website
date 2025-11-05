@@ -1,0 +1,123 @@
+body{
+    background-color: #40403E;
+    margin: 0;
+}
+
+.rectangle {
+    background-color: black;
+    z-index: -1;
+    position: static;
+    width: 100vw;
+    height: 5em;
+}
+.logo img{
+    width: 200px; /* taille du logo */
+    height: auto; /* taille du logo */
+    position: absolute; /* placement libre sur la page */
+    top: 15px; /* logo 50px du haut */
+    left: 850px; /* logo 50px de la gauche */
+}
+
+/* PREMIERE VOITURE */
+
+.car-container1{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    border-radius: 50px;
+    background-color: #757575;
+    top: 20em;
+    left: 5em;
+}
+
+.car-container1 #laguna3{
+    position: absolute;
+    width: auto;
+    height: 350px;
+    max-width: 800px;
+    
+    top: 2.5em;
+    left: -5em;
+    
+}
+#car1-info{
+    position: absolute;
+    color: white;
+    font-family: "afacad";
+    left: 2em;
+    text-align: left;
+}
+#car1_name{
+    font-size: 50px;
+}
+#car1_subname{
+    font-size: 20px;
+
+}
+
+.car-container1 #door1{
+    position: absolute;
+    width: auto;
+    height: 20px;
+    top: 8em;
+    left: 2em;
+}
+
+
+
+/* DEUXIEME VOITURE */
+.car-container2{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    border-radius: 50px;
+    background-color: #757575;
+    top: 20em;
+    right: 43em;
+}
+
+/* TROISIEME VOITURE */
+.car-container3{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    border-radius: 50px;
+    background-color: #757575;
+    top: 20em;
+    right: 5em;
+}
+
+/* QUATRIEME VOITURE */
+.car-container4{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    border-radius: 50px;
+    background-color: #757575;
+    top: 55em;
+    left: 5em;
+}
+
+
+
+/* CINQUIEME VOITURE */
+.car-container5{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    border-radius: 50px;
+    background-color: #757575;
+    top: 55em;
+    right: 43em;
+}
+
+/* SIXIEME VOITURE */
+.car-container6{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    border-radius: 50px;
+    background-color: #757575;
+    top: 55em;
+    right: 5em;
+}

@@ -1,0 +1,171 @@
+body{
+    background-repeat: no-repeat; /* l'image ne se répète pas */
+    margin: 0; /* enlève les marges */
+    padding: 0;
+    background-color: #8b8989; /* couleur de la page */
+    background-position: center;
+    padding-bottom: -150px;
+}
+
+.main-content{
+    padding: 40px 20px;
+}
+
+.cars-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vehicle-card{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0, 4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+}
+
+.card-header{
+    position: relative; /* Permet de servir de "repère" pour éléments enfants*/
+    background-color: #1a1a1a;
+    padding: 20px 24px;
+}
+
+.header-top{
+    margin-bottom: 15px;
+}
+
+.card-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-subtitle{
+    color: white;
+    font-size: 13px;
+    margin: 4px 0 16px 0;
+}
+
+.image-section{
+    display: flex;
+    background: linear-gradient(180deg, #1a1a1a 0%, #53575c 50%, #1a1a1a 100%);
+    padding: 40px 20px;
+    margin-left: -100px;
+    margin-right: -100px;
+    justify-content: center;
+    align-items: center;
+    max-height: 20rem;
+}
+
+
+.vehicle-image {
+    height: 300px; /* Hauteur fixe pour toutes les images */
+    width: auto;   /* La largeur s'ajuste automatiquement en fonction de la hauteur */
+    object-fit: contain; /* Maintenir les proportions sans déformation */
+}
+
+.vehicle-specs{
+    display: flex;
+    gap: 20px;
+}
+
+.card-footer{
+    padding: 10px;
+}
+/* ///////////////////////////////////////////////////////////// */
+
+.vehicle-specs{
+    padding: 8px 8px 8px;
+}
+
+
+.rental-price{
+    font-family: "afacad";
+    color: white;
+}
+
+
+/* ///////// DIFFERENTS BADGES (CARBU) ///////// */
+
+
+.badge-diesel{
+    position: absolute;
+    background-color: #c04e02;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 10px;
+    top: 18px;
+    right: 10px;
+    font-family: "afacad";
+    
+}
+
+.badge-essence{
+    position: absolute;
+    background-color: #219404;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 10px;
+    top: 18px;
+    right: 10px;
+    font-family: "afacad";
+    
+}
+
+.badge-electrique{
+    position: absolute;
+    background-color: #033aaf;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 10px;
+    top: 18px;
+    right: 10px;
+    font-family: "afacad";
+    
+}
+
+.badge-hybride{
+    position: absolute;
+    background-color: #6502b6;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 10px;
+    top: 18px;
+    right: 10px;
+    font-family: "afacad";
+    
+}
+
+
+/* ///////// DIFFERENTS BADGES (AUTRES) ///////// */
+
+.car-seat{
+    color: white;
+    margin-left: -10px;
+}
+
+.car-doors{
+    color: white;
+}
+
+.car-boite-vitesse{
+    color: white;
+}
+
+.view-eye{
+    color: white;
+    position: absolute;
+    background-color: #af0303;
+    padding: 6px 10px 6px ;
+    right: 35px;
+    bottom: 35px;
+    border-radius: 20px;
+}
+
+.view-eye:hover{
+    opacity: 0.8;
+    cursor: pointer
+}

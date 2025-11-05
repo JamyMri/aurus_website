@@ -4,12 +4,14 @@ body{
     background-repeat: no-repeat; /* l'image ne se répète pas */
     margin: 0; /* enlève les marges */
     background-color: #C7BEBD; /* couleur de la page */
+    background-position: center;
+    padding-bottom: -150px;
 }
 a{
     text-decoration: none;
 }
-.logo{
-    width: 200px; /* taille du logo */
+#logo{
+    width: 150px; /* taille du logo */
     height: auto; /* taille du logo */
     position: absolute; /* placement libre sur la page */
     top: 50px; /* logo 50px du haut */
@@ -41,6 +43,23 @@ a{
     left: 50%; /* position horizontale au centre */
     transform: translate(-50%, -50%); /* recentre parfaitement la barre */
     z-index: 10; /* place la barre au-dessus du reste du contenu */
+
+     /*  Animation */
+    animation: slideDown 0.4s ease-out forwards;
+
+}
+
+
+/* //////////// ANIMATION BARRE DU MILIEU /////////////////////*/
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -150%); /* commence bien au-dessus de la page */
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%); /* revient à sa position normale */
+    }
 }
 
 /* Icône du menu à gauche */
@@ -52,97 +71,136 @@ a{
 
 /* TEXTE  */
 #w-text {
-    font-family: "PT Sans", sans-serif;
+    font-family: "Afacad", sans-serif;
     position: absolute;   /* placement libre sur la page */
     left: 50%;
     transform: translateX(-50%);
-    pointer-events: none; /* optionnel, pour que le texte ne capture pas les clics */
+    pointer-events: none; /* optionnel, pour que le texte ne capture pas le passage du curseur */
+    font-size: 25px;
 }
 
-/* TEXTE EN BAS DE PAGE A GAUCHE */
-#foot-text-left{
-    color: black; /* COULEUR DU TEXTE */
-    font-family: "alfacad", sans-serif; /* POLICE DU TEXTE */
-    font-weight: 400; /* "EPAISSEUR" DE LA POLICE */
-    position: absolute; /* placement libre sur la page */
-    text-align: center; /* ALIGNE LE TEXTE AU CENTRE DU PARAGRAPHE */
-    transform: translate(-50%); /* décale l’élément vers la gauche de la moitié de sa largeur pour le centrer */
-    top: 52em; /* position à partir du haut */
-    left: 45em; /* position à partir de la gauche */
-}
-/* BOUTON LOC VOITURES */
-#loc-car-text:hover{
-    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
-    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
-}
-/* BOUTON LOC UTILITAIRES */
-#loc-utilities-text:hover{
-    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
-    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
+/* Style général du footer */
+.footer-aurus {
+    background-color: #ddd7d6;
+    padding: 45px 0 20px;
+    margin-top: 100px;
+    
 }
 
-/* BOUTON NOS AGENCES */
-#our-agency-text:hover{
-    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
-    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
+.footer-section {
+    font-family: "Afacad", sans-serif;
+    color: black;
 }
 
-/* TEXTE EN BAS DE PAGE A DROITE */
-#foot-text-right{
-    color: black; /* COULEUR DU TEXTE */
-    font-family: "alfacad", sans-serif; /* POLICE DU TEXTE */
-    font-weight: 400; /* "EPAISSEUR" DE LA POLICE */
-    position: absolute; /* pour pouvoir centrer horizontalement */
-    text-align: center; /* ALIGNE LE TEXTE AU CENTRE DU PARAGRAPHE */
-    transform: translate(-50%); /* décale l’élément vers la gauche de la moitié de sa largeur pour le centrer */
-    top: 52em; /* position à partir du haut */
-    right: 40em; /* position à partir de la droite */
+.footer-section h5 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
 }
 
-/* BOUTON AIDE ET CONTACT */
-#help-contact-text:hover{
-    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
-    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
-}
-/* BOUTON CGV ET CGU */
-#cgv-cgu-text:hover{
-    cursor: pointer; /* Souris passe en mode "click" en passant sur le texte */
-    text-decoration: underline; /* texte devient surligné quand la souris passe dessus */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-/* LOGO APPSTORE ET GOOGLE PLAY STORE */
-#appstore-logo{
-    position: absolute; /* placement libre sur la page */
-    top: 55em; /* position à partir du haut */
-    left: 3em; /* position à partir de la gauche */
-}
-#playstore-logo{
-    position: absolute; /* placement libre sur la page */
-    top: 55em; /* position à partir du haut */
-    left: 15em; /* position à partir de la gauche */
+.footer-section ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
 }
 
-/* LOGOS RESEAUX SOCIAUX A DROITE */
-#twitter-logo{
-    position: absolute; /* placement libre sur la page */
-    top: 55em; /* position à partir du haut */
-    right: 15em; /* position à partir de la droite */
-}
-#instagram-logo{
-    position: absolute; /* placement libre sur la page */
-    top: 55em; /* position à partir du haut */
-    right: 10em; /* position à partir de la droite */
-}
-#linkedin-logo{
-    position: absolute; /* placement libre sur la page */
-    top: 55em; /* position à partir du haut */
-    right: 5em; /* position à partir de la droite */
+.footer-section ul li a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
 }
 
-#ptit_texte_en_bas{
-    position: absolute;
-    font-family: "alfacad", sans-serif;
-    top: 62em;
-    right: 58em;
-    color: black ;
+.footer-section ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Badges d'applications */
+.app-badges img {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+/* Icônes réseaux sociaux */
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Mini texte en bas */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #a6a6a4;
+    font-family: "Afacad", sans-serif;
+    color: black;
+}
+
+/* Responsive - Mobile et tablette */
+@media screen and (max-width: 768px) {
+    body{
+    background-size: cover;
+    background-position: center 45%; /* remonte un peu le cadrage */
+    
+    transform-origin: top center;
+    }
+    .footer-aurus {
+        padding: 30px 15px 20px;
+        bottom: -20em;
+    }
+    .button{
+        display: flex;
+        top: 85%;
+    }
+    #w-text{
+        font-size: 20px;
+    }
+    .app-badges {
+        display: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .social-icons {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+/* Responsive pour écrans 1920x1080px */
+@media screen and (min-width: 1920px) {
+    .footer-aurus{
+        position: absolute;
+        padding: 25px 15px 20px;
+        bottom: -15.5em;
+        margin-top: 5px;
+    }
+    .app-badges{
+        transform: scale(0.8);
+    }
+    .social-icons{
+        transform: scale(0.9);
+    }
+    .footer-section{
+        transform: scale(1);
+    }
 }
