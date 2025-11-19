@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ////////////  -->
+    <title>Aurus | SUV</title>
+    <link rel="stylesheet" href="../css/citadine_page.css">
+    <link rel="shortcut icon" href="../ressources/images/aurus_favicon.png" type="image/x-icon">
+    <!-- IMPORTATION POLICE ALFACAD (FOOTER) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img src="../ressources/images/aurus_logo.png" alt="Aurus logo" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+            <img src="../ressources/images/aurus_logo.png" alt="Aurus logo" height="60">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Page d'accueil</a>
+                </li>
+                <li class="nav-item text-secondary">
+                    <h5>———————————— </h5>   
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../p/berlines.html">Location Berlines</a>
+                </li>
+                <li class="nav-item text-secondary">
+                    <h5>———————————— </h5>   
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../p/citadines.html">Location Citadines</a>
+                </li>
+                <li class="nav-item text-secondary">
+                    <h5>———————————— </h5>   
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../p/utilitaires.html">Location Utilitaires</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </nav>
+
+
+    <div class="main-content flex-grow-1">
+        <div class="cars-grid">
+            <!-- PREMIERE VOITURE -->
+             <div>
+            <div class="vehicle-card">
+                <div class="card-header">
+                    <div class="header-top">
+                        <h2 class="card-title">DACIA DUSTER</h5>
+                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <span class="badge-diesel">
+                            <i class="fa-solid fa-gas-pump"></i> Diesel
+                        </span>
+                            
+                    </div>
+                    <div class="vehicle-specs">
+                        <div class="car-seat">
+                            <i class="fa-solid fa-users"></i> 5
+                        </div>
+                        
+                        <div class="car-doors">
+                            <i class="fa-solid fa-door-closed"></i> 5
+                        </div>
+
+                        <div class="car-boite-vitesse">
+                            <i class="fa-solid fa-gears"></i> Manuelle
+                        </div>
+                    </div>
+
+                    <div class="image-section">
+                        <img class="vehicle-image" src="../ressources/cars/suv/dacia_duster.png" alt="dacia_duster">
+                    </div>
+                    <div class="card-footer">
+                        <div class="rental-price">
+                            <h2>60 €</h2>
+                        </div>
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-dacia_duster">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- DEUXIEME VOITURE -->
+            <div class="vehicle-card">
+                <div class="card-header">
+                    <div class="header-top">
+                        <h2 class="card-title">Audi Q7 </h5>
+                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <span class="badge-diesel">
+                            <i class="fa-solid fa-gas-pump"></i> Diesel
+                        </span>
+                            
+                    </div>
+                    <div class="vehicle-specs">
+                        <div class="car-seat">
+                            <i class="fa-solid fa-users"></i> 5
+                        </div>
+                        
+                        <div class="car-doors">
+                            <i class="fa-solid fa-door-closed"></i> 5
+                        </div>
+
+                        <div class="car-boite-vitesse">
+                            <i class="fa-solid fa-gears"></i> Automatique
+                        </div>
+                    </div>
+
+                    <div class="image-section">
+                        <img class="vehicle-image" src="../ressources/cars/suv/audi_q7.png" style="width: 400px" alt="audi_q7">
+                    </div>
+                    <div class="card-footer">
+                        <div class="rental-price">
+                            <h2>60 € / Jour</h2>
+                        </div>
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-audi_q7">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Troisième VOITURE -->
+            <div class="vehicle-card">
+                <div class="card-header">
+                    <div class="header-top">
+                        <h2 class="card-title">VOLVO XC90</h5>
+                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <span class="badge-hybride">
+                            <i class="fa-solid fa-gas-pump"></i> Hybride
+                        </span>
+                            
+                    </div>
+                    <div class="vehicle-specs">
+                        <div class="car-seat">
+                            <i class="fa-solid fa-users"></i> 5
+                        </div>
+                        
+                        <div class="car-doors">
+                            <i class="fa-solid fa-door-closed"></i> 5
+                        </div>
+
+                        <div class="car-boite-vitesse">
+                            <i class="fa-solid fa-gears"></i> Automatique
+                        </div>
+                    </div>
+
+                    <div class="image-section">
+                        <img class="vehicle-image" src="../ressources/cars/suv/volvo_xc90.png" alt="volvo_xc90" style="transform: translateX(-10px); width: 500px;">
+                    </div>
+                    <div class="card-footer">
+                        <div class="rental-price">
+                            <h2>60 € / Jour</h2>
+                        </div>
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-volvo_xc90">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quatrième VOITURE -->
+            <div class="vehicle-card">
+                <div class="card-header">
+                    <div class="header-top">
+                        <h2 class="card-title">CADILLAC LYRIQ</h5>
+                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <span class="badge-electrique">
+                            <i class="fa-solid fa-bolt"></i> Electique
+                        </span>
+                            
+                    </div>
+                    <div class="vehicle-specs">
+                        <div class="car-seat">
+                            <i class="fa-solid fa-users"></i> 5
+                        </div>
+                        
+                        <div class="car-doors">
+                            <i class="fa-solid fa-door-closed"></i> 5
+                        </div>
+
+                        <div class="car-boite-vitesse">
+                            <i class="fa-solid fa-gears"></i> Automatique
+                        </div>
+                    </div>
+
+                    <div class="image-section">
+                        <img class="vehicle-image" src="../ressources/cars/suv/cadillac-lyriq.png" alt="cad_lyriq" style="width: 400px;">
+                    </div>
+                    <div class="card-footer">
+                        <div class="rental-price">
+                            <h2>60 € / Jour</h2>
+                        </div>
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-cadillac_lyriq">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cinquième VOITURE -->
+            <div class="vehicle-card">
+                <div class="card-header">
+                    <div class="header-top">
+                        <h2 class="card-title">NISSAN X-TRAIL</h5>
+                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <span class="badge-hybride">
+                            <i class="fa-solid fa-gas-pump"></i> Hybride
+                        </span>
+                            
+                    </div>
+                    <div class="vehicle-specs">
+                        <div class="car-seat">
+                            <i class="fa-solid fa-users"></i> 5
+                        </div>
+                        
+                        <div class="car-doors">
+                            <i class="fa-solid fa-door-closed"></i> 5
+                        </div>
+
+                        <div class="car-boite-vitesse">
+                            <i class="fa-solid fa-gears"></i> Automatique
+                        </div>
+                    </div>
+
+                    <div class="image-section">
+                        <img class="vehicle-image" src="../ressources/cars/suv/nissan_xtrail.png" style="width: 350px;" alt="nissan_xtrail">
+                    </div>
+                    <div class="card-footer">
+                        <div class="rental-price">
+                            <h2>60 € / Jour</h2>
+                        </div>
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-nissan_xtrail">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sixième VOITURE -->
+            <div class="vehicle-card">
+                <div class="card-header">
+                    <div class="header-top">
+                        <h2 class="card-title">PEUGEOT 5008</h5>
+                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <span class="badge-electrique">
+                            <i class="fa-solid fa-bolt"></i> Electrique
+                        </span>
+                            
+                    </div>
+                    <div class="vehicle-specs">
+                        <div class="car-seat">
+                            <i class="fa-solid fa-users"></i> 5
+                        </div>
+                        
+                        <div class="car-doors">
+                            <i class="fa-solid fa-door-closed"></i> 5
+                        </div>
+
+                        <div class="car-boite-vitesse">
+                            <i class="fa-solid fa-gears"></i> Automatique
+                        </div>
+                    </div>
+
+                    <div class="image-section">
+                        <img class="vehicle-image" src="../ressources/cars/suv/peugeot_5008.png" alt="peugeot_5008" style="width: 350px;">
+                    </div>
+                    <div class="card-footer">
+                        <div class="rental-price">
+                            <h2>60 € / Jour</h2>
+                        </div>
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal_peugeot_5008">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /////////////////////////////// MODAL DUSTER ///////////////////////////////-->
+
+        <div class="modal fade" id="modal-dacia_duster" tabindex="-1" aria-labelledby="modalFiatLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content-custom">
+                    <div class="modal-header header-custom">
+                        <h1 class="modal-title"> DACIA DUSTER </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-dacia_duster">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-body body-custom">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="image-container">
+                                   <img src="../ressources/cars/suv/dacia_duster.png" alt="dacia_duster" class="img-fluid"> 
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                    <div class="car-details">
+                                        <p class="card-subtitle">DACIA DUSTER</p>
+                                        <p class="modal-car-price"> 60 / Jour</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-users"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Passagers</p>
+                                                    <p class="modal-car-detail-value">5 passagers</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-door-closed"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Portes</p>
+                                                    <p class="modal-car-detail-value">5 portes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gears"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Transmission</p>
+                                                    <p class="modal-car-detail-value">Manuelle</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-horse-head"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Puissance</p>
+                                                    <p class="modal-car-detail-value">110ch</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gauge"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Vitesse max</p>
+                                                    <p class="modal-car-detail-value">168 km/h</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-snowflake"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Climatisation</p>
+                                                    <p class="modal-car-detail-value">Avec</p>
+                                                </div>
+                                            </div>    
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <a href="success-rental.html">
+                                                <div class="modal-car-rental-button">
+                                                    <i class="fa-solid fa-calendar"></i>
+                                                    <p class="modal-car-rental-button-text">Réserver</p> 
+                                                </div>  
+                                            </a>
+                                        </div>    
+
+                                        <div class="col-md-6">
+                                            <div class="modal-car-contact-button">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <div>
+                                                    <p class="modal-car-contact-button-text">Nous Contacter</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- /////////////////////////////// MODAL AUDI Q7 ///////////////////////////////-->
+    <div class="modal fade" id="modal-audi_q7" tabindex="-1" aria-labelledby="modalAUDIQ7Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content-custom">
+                    <div class="modal-header header-custom">
+                        <h1 class="modal-title"> AUDI Q7 </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-audi_q7">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-body body-custom">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="image-container">
+                                   <img src="../ressources/cars/suv/audi_q7.png" alt="audi_q7" class="img-fluid"> 
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                    <div class="car-details">
+                                        <p class="card-subtitle">AUDI Q7</p>
+                                        <p class="modal-car-price"> 60 / Jour</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-users"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Passagers</p>
+                                                    <p class="modal-car-detail-value">5 passagers</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-door-closed"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Portes</p>
+                                                    <p class="modal-car-detail-value">5 portes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gears"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Transmission</p>
+                                                    <p class="modal-car-detail-value">Automatique</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-horse-head"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Puissance</p>
+                                                    <p class="modal-car-detail-value">286ch</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gauge"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Vitesse max</p>
+                                                    <p class="modal-car-detail-value">241 km/h</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-snowflake"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Climatisation</p>
+                                                    <p class="modal-car-detail-value">Avec (Auto)</p>
+                                                </div>
+                                            </div>    
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <a href="success-rental.html">
+                                                <div class="modal-car-rental-button">
+                                                    <i class="fa-solid fa-calendar"></i>
+                                                    <p class="modal-car-rental-button-text">Réserver</p> 
+                                                </div>  
+                                            </a>
+                                            
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="modal-car-contact-button">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <div>
+                                                    <p class="modal-car-contact-button-text">Nous Contacter</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            <!-- /////////////////////////////// MODAL VOLVO XC90 ///////////////////////////////-->
+
+        <div class="modal fade" id="modal-volvo_xc90" tabindex="-1" aria-labelledby="modalvolvo_xc90Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content-custom">
+                    <div class="modal-header header-custom">
+                        <h1 class="modal-title"> CITROËN E-C3 </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-volvo_xc90">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-body body-custom">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="image-container">
+                                   <img src="../ressources/cars/suv/volvo_xc90.png" alt="volvo_xc90" class="img-fluid"> 
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                    <div class="car-details">
+                                        <p class="card-subtitle">VOLVO XC90</p>
+                                        <p class="modal-car-price"> 60 / Jour</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-users"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Passagers</p>
+                                                    <p class="modal-car-detail-value">5 passagers</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-door-closed"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Portes</p>
+                                                    <p class="modal-car-detail-value">5 portes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gears"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Transmission</p>
+                                                    <p class="modal-car-detail-value">Automatique</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-horse-head"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Puissance</p>
+                                                    <p class="modal-car-detail-value">320ch</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gauge"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Vitesse max</p>
+                                                    <p class="modal-car-detail-value">230 km/h</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-snowflake"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Climatisation</p>
+                                                    <p class="modal-car-detail-value">Avec (Auto)</p>
+                                                </div>
+                                            </div>    
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <a href="success-rental.html">
+                                                <div class="modal-car-rental-button">
+                                                    <i class="fa-solid fa-calendar"></i>
+                                                    <p class="modal-car-rental-button-text">Réserver</p> 
+                                                </div>  
+                                            </a>
+                                        </div> 
+
+                                        <div class="col-md-6">
+                                            <div class="modal-car-contact-button">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <div>
+                                                    <p class="modal-car-contact-button-text">Nous Contacter</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- /////////////////////////////// CADILLAC LYRIQ ///////////////////////////////-->
+
+        <div class="modal fade" id="modal-cadillac_lyriq" tabindex="-1" aria-labelledby="modalcadillac_lyriqLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content-custom">
+                    <div class="modal-header header-custom">
+                        <h1 class="modal-title"> CADILLAC LYRIQ </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-cadillac_lyriq">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-body body-custom">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="image-container">
+                                   <img src="../ressources/cars/suv/cadillac-lyriq.png" alt="cadillac_lyriq" class="img-fluid"> 
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                    <div class="car-details">
+                                        <p class="card-subtitle">CADILLAC LYRIQ</p>
+                                        <p class="modal-car-price"> 60 / Jour</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-users"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Passagers</p>
+                                                    <p class="modal-car-detail-value">5 passagers</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-door-closed"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Portes</p>
+                                                    <p class="modal-car-detail-value">5 portes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gears"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Transmission</p>
+                                                    <p class="modal-car-detail-value">Automatique</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-horse-head"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Puissance</p>
+                                                    <p class="modal-car-detail-value">388kW (528ch)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gauge"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Vitesse max</p>
+                                                    <p class="modal-car-detail-value">210 km/h</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-snowflake"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Climatisation</p>
+                                                    <p class="modal-car-detail-value">Avec (Auto)</p>
+                                                </div>
+                                            </div>    
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <a href="success-rental.html">
+                                                <div class="modal-car-rental-button">
+                                                    <i class="fa-solid fa-calendar"></i>
+                                                    <p class="modal-car-rental-button-text">Réserver</p> 
+                                                </div>  
+                                            </a>
+                                        </div> 
+
+                                        <div class="col-md-6">
+                                            <div class="modal-car-contact-button">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <div>
+                                                    <p class="modal-car-contact-button-text">Nous Contacter</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- /////////////////////////////// MODAL NISSAN X-TRAIL ///////////////////////////////-->
+
+        <div class="modal fade" id="modal-nissan_xtrail" tabindex="-1" aria-labelledby="modalnissan_xtrailLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content-custom">
+                    <div class="modal-header header-custom">
+                        <h1 class="modal-title"> NISSAN X-TRAIL </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-nissan_xtrail">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-body body-custom">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="image-container">
+                                   <img src="../ressources/cars/suv/nissan_xtrail.png" alt="nissan_xtrail" class="img-fluid"> 
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                    <div class="car-details">
+                                        <p class="card-subtitle">NISSAN X-TRAIL</p>
+                                        <p class="modal-car-price"> 60 / Jour</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-users"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Passagers</p>
+                                                    <p class="modal-car-detail-value">5 passagers</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-door-closed"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Portes</p>
+                                                    <p class="modal-car-detail-value">5 portes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gears"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Transmission</p>
+                                                    <p class="modal-car-detail-value">Automatique</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-horse-head"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Puissance</p>
+                                                    <p class="modal-car-detail-value">213ch (157kW)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gauge"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Vitesse max</p>
+                                                    <p class="modal-car-detail-value">180 km/h</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-snowflake"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Climatisation</p>
+                                                    <p class="modal-car-detail-value">Avec (Auto)</p>
+                                                </div>
+                                            </div>    
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <a href="success-rental.html">
+                                                <div class="modal-car-rental-button">
+                                                    <i class="fa-solid fa-calendar"></i>
+                                                    <p class="modal-car-rental-button-text">Réserver</p> 
+                                                </div>  
+                                            </a>
+                                        </div> 
+
+                                        <div class="col-md-6">
+                                            <div class="modal-car-contact-button">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <div>
+                                                    <p class="modal-car-contact-button-text">Nous Contacter</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- /////////////////////////////// MODAL PEUGEOT 5008 ///////////////////////////////-->
+
+        <div class="modal fade" id="modal_peugeot_5008" tabindex="-1" aria-labelledby="modalpeugeot_5008Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content-custom">
+                    <div class="modal-header header-custom">
+                        <h1 class="modal-title"> PEUGEOT 5008 </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal_peugeot_5008">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-body body-custom">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="image-container">
+                                   <img src="../ressources/cars/suv/peugeot_5008.png" alt="peugeot_5008" class="img-fluid"> 
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                    <div class="car-details">
+                                        <p class="card-subtitle">PEUGEOT 5008</p>
+                                        <p class="modal-car-price"> 60 / Jour</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-users"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Passagers</p>
+                                                    <p class="modal-car-detail-value">5 passagers</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-door-closed"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Portes</p>
+                                                    <p class="modal-car-detail-value">5 portes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gears"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Transmission</p>
+                                                    <p class="modal-car-detail-value">Automatique</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-horse-head"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Puissance</p>
+                                                    <p class="modal-car-detail-value">145ch</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gauge"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Vitesse max</p>
+                                                    <p class="modal-car-detail-value">200 km/h</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-snowflake"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Climatisation</p>
+                                                    <p class="modal-car-detail-value">Avec (Auto)</p>
+                                                </div>
+                                            </div>    
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <a href="success-rental.html">
+                                                <div class="modal-car-rental-button">
+                                                    <i class="fa-solid fa-calendar"></i>
+                                                    <p class="modal-car-rental-button-text">Réserver</p> 
+                                                </div>  
+                                            </a>
+                                        </div> 
+
+                                        <div class="col-md-6">
+                                            <div class="modal-car-contact-button">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <div>
+                                                    <p class="modal-car-contact-button-text">Nous Contacter</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<footer class="mt-auto footer-aurus">
+    <div class="footer-bottom">
+        <p id="ptit_texte_en_bas" class="mb-0">© Aurus 2025</p>
+    </div>
+
+</footer>
+    
+       
+<!-- BOOTSTRAP -->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
