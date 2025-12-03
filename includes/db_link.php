@@ -2,8 +2,8 @@
 // 1. Vos paramètres de connexion
 $host = 'localhost';
 $dbname = 'aurus_db'; // <--- IMPORTANT : Remplacez ceci par le VRAI nom de votre base
-$username = 'root';
-$password = 'VPS@Loonny1!'; 
+$username = '';
+$password = ''; 
 
 try {
     // 2. Chaîne de connexion (DSN) avec encodage utf8mb4 (pour les accents et emojis)
@@ -27,3 +27,4 @@ try {
     die("Erreur de connexion à la base de données : " . $e->getMessage());
 }
 ?>
+
