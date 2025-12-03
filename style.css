@@ -188,8 +188,8 @@ a{
 }
 
 /* Responsive pour écrans 1920x1080px */
-@media screen and (min-width: 1920px) {
-    .footer-aurus{
+@media screen and (min-width: 1200px) {
+    footer{
         position: absolute;
         padding: 25px 15px 20px;
         bottom: -15.5em;

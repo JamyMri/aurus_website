@@ -8,8 +8,8 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- ////////////  -->
-    <title>Aurus | Berlines</title>
-    <link rel="stylesheet" href="../css/berlines_page.css">
+    <title>Aurus | Citadines</title>
+    <link rel="stylesheet" href="../css/citadine_page.css">
     <link rel="shortcut icon" href="../ressources/images/aurus_favicon.png" type="image/x-icon">
     <!-- IMPORTATION POLICE ALFACAD (FOOTER) -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
 
     <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
+        <a class="navbar-brand" href="../index.php">
             <img src="../ressources/images/aurus_logo.png" alt="Aurus logo" height="60">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -33,13 +33,13 @@
         <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Page d'accueil</a>
+                    <a class="nav-link" href="../index.php">Page d'accueil</a>
                 </li>
                 <li class="nav-item text-secondary">
                     <h5>———————————— </h5>   
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../p/citadines.html">Location Citadines</a>
+                    <a class="nav-link" href="../p/berlines.html">Location Berlines</a>
                 </li>
                 <li class="nav-item text-secondary">
                     <h5>———————————— </h5>   
@@ -67,8 +67,8 @@
             <div class="vehicle-card">
                 <div class="card-header">
                     <div class="header-top">
-                        <h2 class="card-title">LAGUNA III</h5>
-                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <h2 class="card-title">FIAT 500</h5>
+                        <p class="card-subtitle">Citadine culte, très maniable en ville.</p>
                         <span class="badge-diesel">
                             <i class="fa-solid fa-gas-pump"></i> Diesel
                         </span>
@@ -76,11 +76,11 @@
                     </div>
                     <div class="vehicle-specs">
                         <div class="car-seat">
-                            <i class="fa-solid fa-users"></i> 5
+                            <i class="fa-solid fa-users"></i> 4
                         </div>
                         
                         <div class="car-doors">
-                            <i class="fa-solid fa-door-closed"></i> 5
+                            <i class="fa-solid fa-door-closed"></i> 3
                         </div>
 
                         <div class="car-boite-vitesse">
@@ -89,13 +89,13 @@
                     </div>
 
                     <div class="image-section">
-                        <img class="vehicle-image" src="../ressources/cars/berlines/laguna_3.png" alt="laguna3">
+                        <img class="vehicle-image" src="../ressources/cars/citadines/fiat500.png" alt="fiat500" style="width: 400px; transform: translateY(20px);">
                     </div>
                     <div class="card-footer">
                         <div class="rental-price">
-                            <h2>60 €</h2>
+                            <h2>50 € / Jour</h2>
                         </div>
-                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-laguna">
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-fiat500">
                             <i class="fa-solid fa-eye"></i>
                         </div>
                     </div>
@@ -106,8 +106,8 @@
             <div class="vehicle-card">
                 <div class="card-header">
                     <div class="header-top">
-                        <h2 class="card-title">PEUGEOT 408 </h5>
-                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <h2 class="card-title">TOYOTA YARIS </h5>
+                        <p class="card-subtitle">Faible consommation, technologie hybride fiable.</p>
                         <span class="badge-hybride">
                             <i class="fa-solid fa-gas-pump"></i> Hybride
                         </span>
@@ -128,13 +128,13 @@
                     </div>
 
                     <div class="image-section">
-                        <img class="vehicle-image" src="../ressources/cars/berlines/peugeot-408-4d-white-2022.png" alt="bmw_m2">
+                        <img class="vehicle-image" src="../ressources/cars/citadines/toyota_yaris.png" style="transform: translateX(-10px);" alt="toyota_yaris">
                     </div>
                     <div class="card-footer">
                         <div class="rental-price">
-                            <h2>60 € / Jour</h2>
+                            <h2>68 € / Jour</h2>
                         </div>
-                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-peugeot-408">
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-toyota-yaris">
                             <i class="fa-solid fa-eye"></i>
                         </div>
                     </div>
@@ -145,8 +145,47 @@
             <div class="vehicle-card">
                 <div class="card-header">
                     <div class="header-top">
-                        <h2 class="card-title">MERCEDES CLASSE C</h5>
-                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <h2 class="card-title">Citröen E-C3</h5>
+                        <p class="card-subtitle">SUV compact électrique, confort et modernité.</p>
+                        <span class="badge-electrique">
+                            <i class="fa-solid fa-bolt"></i> Electrique
+                        </span>
+                            
+                    </div>
+                    <div class="vehicle-specs">
+                        <div class="car-seat">
+                            <i class="fa-solid fa-users"></i> 5
+                        </div>
+                        
+                        <div class="car-doors">
+                            <i class="fa-solid fa-door-closed"></i> 5
+                        </div>
+
+                        <div class="car-boite-vitesse">
+                            <i class="fa-solid fa-gears"></i> Automatique
+                        </div>
+                    </div>
+
+                    <div class="image-section">
+                        <img class="vehicle-image" src="../ressources/cars/citadines/citroen-c3-e-.png" alt="citroen-e-c3">
+                    </div>
+                    <div class="card-footer">
+                        <div class="rental-price">
+                            <h2>72 € / Jour</h2>
+                        </div>
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-citro-e-c3">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quatrième VOITURE -->
+            <div class="vehicle-card">
+                <div class="card-header">
+                    <div class="header-top">
+                        <h2 class="card-title">BMW SERIE-1</h5>
+                        <p class="card-subtitle">Compacte premium, dynamique, plaisir de conduite.</p>
                         <span class="badge-essence">
                             <i class="fa-solid fa-gas-pump"></i> Essence
                         </span>
@@ -167,52 +206,13 @@
                     </div>
 
                     <div class="image-section">
-                        <img class="vehicle-image" src="../ressources/cars/berlines/mbenz_classec.png" alt="mercedes_classe_c">
+                        <img class="vehicle-image" src="../ressources/cars/citadines/bmw_s1.png" alt="bmw_s1">
                     </div>
                     <div class="card-footer">
                         <div class="rental-price">
-                            <h2>60 € / Jour</h2>
+                            <h2>85 € / Jour</h2>
                         </div>
-                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-mbenz-c">
-                            <i class="fa-solid fa-eye"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Quatrième VOITURE -->
-            <div class="vehicle-card">
-                <div class="card-header">
-                    <div class="header-top">
-                        <h2 class="card-title">AUDI A6 E-TRON</h5>
-                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
-                        <span class="badge-electrique">
-                            <i class="fa-solid fa-bolt"></i> Électrique
-                        </span>
-                            
-                    </div>
-                    <div class="vehicle-specs">
-                        <div class="car-seat">
-                            <i class="fa-solid fa-users"></i> 5
-                        </div>
-                        
-                        <div class="car-doors">
-                            <i class="fa-solid fa-door-closed"></i> 5
-                        </div>
-
-                        <div class="car-boite-vitesse">
-                            <i class="fa-solid fa-gears"></i> Automatique
-                        </div>
-                    </div>
-
-                    <div class="image-section">
-                        <img class="vehicle-image" src="../ressources/cars/berlines/audi-a6-etron-2025.png" alt="audi_a6_etron">
-                    </div>
-                    <div class="card-footer">
-                        <div class="rental-price">
-                            <h2>60 € / Jour</h2>
-                        </div>
-                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-audi_a6">
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-bmw-s1">
                             <i class="fa-solid fa-eye"></i>
                         </div>
                     </div>
@@ -223,47 +223,8 @@
             <div class="vehicle-card">
                 <div class="card-header">
                     <div class="header-top">
-                        <h2 class="card-title">SKODA OCTAVIA</h5>
-                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
-                        <span class="badge-hybride">
-                            <i class="fa-solid fa-gas-pump"></i> Hybride
-                        </span>
-                            
-                    </div>
-                    <div class="vehicle-specs">
-                        <div class="car-seat">
-                            <i class="fa-solid fa-users"></i> 5
-                        </div>
-                        
-                        <div class="car-doors">
-                            <i class="fa-solid fa-door-closed"></i> 5
-                        </div>
-
-                        <div class="car-boite-vitesse">
-                            <i class="fa-solid fa-gears"></i> Automatique
-                        </div>
-                    </div>
-
-                    <div class="image-section">
-                        <img class="vehicle-image" src="../ressources/cars/berlines/skoda_octavia.png" alt="mercedes_classe_c">
-                    </div>
-                    <div class="card-footer">
-                        <div class="rental-price">
-                            <h2>60 € / Jour</h2>
-                        </div>
-                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-octavia">
-                            <i class="fa-solid fa-eye"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Sixième VOITURE -->
-            <div class="vehicle-card">
-                <div class="card-header">
-                    <div class="header-top">
-                        <h2 class="card-title">CUPRA LEON </h5>
-                        <p class="card-subtitle">Lorem ipsum sit amet.</p>
+                        <h2 class="card-title">PEUGEOT 208</h5>
+                        <p class="card-subtitle">Compacte polyvalente, bon rapport qualité/prix.</p>
                         <span class="badge-diesel">
                             <i class="fa-solid fa-gas-pump"></i> Diesel
                         </span>
@@ -284,13 +245,52 @@
                     </div>
 
                     <div class="image-section">
-                        <img class="vehicle-image" src="../ressources/cars/berlines/cupra-leon-2025.png" alt="cupra_leon_image" style="width: 350px;">
+                        <img class="vehicle-image" src="../ressources/cars/citadines/peugeot_208.png" style="transform: translateX(-10px);" alt="peugeot_208">
                     </div>
                     <div class="card-footer">
                         <div class="rental-price">
-                            <h2>60 € / Jour</h2>
+                            <h2>55 € / Jour</h2>
                         </div>
-                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-cupra_leon">
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal-peugeot-208">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sixième VOITURE -->
+            <div class="vehicle-card">
+                <div class="card-header">
+                    <div class="header-top">
+                        <h2 class="card-title">RENAULT-5 ELEC </h5>
+                        <p class="card-subtitle">Néo-rétro, 100% électrique, idéale centre-ville.</p>
+                        <span class="badge-electrique">
+                            <i class="fa-solid fa-bolt"></i> Electrique
+                        </span>
+                            
+                    </div>
+                    <div class="vehicle-specs">
+                        <div class="car-seat">
+                            <i class="fa-solid fa-users"></i> 5
+                        </div>
+                        
+                        <div class="car-doors">
+                            <i class="fa-solid fa-door-closed"></i> 5
+                        </div>
+
+                        <div class="car-boite-vitesse">
+                            <i class="fa-solid fa-gears"></i> Automatique
+                        </div>
+                    </div>
+
+                    <div class="image-section">
+                        <img class="vehicle-image" src="../ressources/cars/citadines/r5_elec.png" alt="r5_elec" style="width: 350px;">
+                    </div>
+                    <div class="card-footer">
+                        <div class="rental-price">
+                            <h2>65 € / Jour</h2>
+                        </div>
+                        <div class="view-eye" data-bs-toggle="modal" data-bs-target="#modal_r5_elec">
                             <i class="fa-solid fa-eye"></i>
                         </div>
                     </div>
@@ -298,14 +298,14 @@
             </div>
         </div>
 
-        <!-- /////////////////////////////// MODAL LAGUNA3 ///////////////////////////////-->
+        <!-- /////////////////////////////// MODAL FIAT 500 ///////////////////////////////-->
 
-        <div class="modal fade" id="modal-laguna" tabindex="-1" aria-labelledby="modalLagunaLabel" aria-hidden="true">
+        <div class="modal fade" id="modal-fiat500" tabindex="-1" aria-labelledby="modalFiatLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content modal-content-custom">
                     <div class="modal-header header-custom">
-                        <h1 class="modal-title"> LAGUNA III </h1>
-                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-laguna">
+                        <h1 class="modal-title"> FIAT 500 </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-fiat500">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         
@@ -314,13 +314,13 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="image-container">
-                                   <img src="../ressources/cars/berlines/laguna_3.png" alt="laguna3" class="img-fluid"> 
+                                   <img src="../ressources/cars/citadines/fiat500.png" alt="fiat500" class="img-fluid"> 
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                     <div class="car-details">
-                                        <p class="card-subtitle">LAGUNA III</p>
-                                        <p class="modal-car-price"> 60 / Jour</p>
+                                        <p class="card-subtitle">Citadine culte, très maniable en ville.</p>
+                                        <p class="modal-car-price">50 € / Jour</p>
                                     </div>
                                     
                                     <div class="row">
@@ -329,7 +329,7 @@
                                                 <i class="fa-solid fa-users"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Passagers</p>
-                                                    <p class="modal-car-detail-value">5 passagers</p>
+                                                    <p class="modal-car-detail-value">4 passagers</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -339,7 +339,7 @@
                                                 <i class="fa-solid fa-door-closed"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Portes</p>
-                                                    <p class="modal-car-detail-value">5 portes</p>
+                                                    <p class="modal-car-detail-value">3 portes</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -359,7 +359,7 @@
                                                 <i class="fa-solid fa-horse-head"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Puissance</p>
-                                                    <p class="modal-car-detail-value">110cv / 6CV</p>
+                                                    <p class="modal-car-detail-value">95ch</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -369,7 +369,7 @@
                                                 <i class="fa-solid fa-gauge"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Vitesse max</p>
-                                                    <p class="modal-car-detail-value">193 km/h</p>
+                                                    <p class="modal-car-detail-value">175 km/h</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -411,13 +411,13 @@
         </div>
     </div>
 
-    <!-- /////////////////////////////// MODAL PEUGEOT 408 ///////////////////////////////-->
-    <div class="modal fade" id="modal-peugeot-408" tabindex="-1" aria-labelledby="modalPeugeot408Label" aria-hidden="true">
+<!-- /////////////////////////////// MODAL TOYOTA YARIS ///////////////////////////////-->
+    <div class="modal fade" id="modal-toyota-yaris" tabindex="-1" aria-labelledby="modalPeugeot408Label" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content modal-content-custom">
                     <div class="modal-header header-custom">
-                        <h1 class="modal-title"> PEUGEOT 408 </h1>
-                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-peugeot-408">
+                        <h1 class="modal-title"> TOYOTA YARIS </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-toyota-yaris">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         
@@ -426,13 +426,13 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="image-container">
-                                   <img src="../ressources/cars/berlines/peugeot-408-4d-white-2022.png" alt="peugeot_408" class="img-fluid"> 
+                                   <img src="../ressources/cars/citadines/toyota_yaris.png" alt="toyota_yaris" class="img-fluid"> 
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                     <div class="car-details">
-                                        <p class="card-subtitle">LAGUNA III</p>
-                                        <p class="modal-car-price"> 60 / Jour</p>
+                                        <p class="card-subtitle">Faible consommation, technologie hybride fiable.</p>
+                                        <p class="modal-car-price">68 € / Jour</p>
                                     </div>
                                     
                                     <div class="row">
@@ -471,7 +471,7 @@
                                                 <i class="fa-solid fa-horse-head"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Puissance</p>
-                                                    <p class="modal-car-detail-value">165cv</p>
+                                                    <p class="modal-car-detail-value">130cv</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -481,7 +481,7 @@
                                                 <i class="fa-solid fa-gauge"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Vitesse max</p>
-                                                    <p class="modal-car-detail-value">233 km/h</p>
+                                                    <p class="modal-car-detail-value">175 km/h</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -525,14 +525,14 @@
     </div>
 
 
-            <!-- /////////////////////////////// MODAL MERCO CLASSE C ///////////////////////////////-->
+            <!-- /////////////////////////////// MODALCITROËN E-C3 ///////////////////////////////-->
 
-        <div class="modal fade" id="modal-mbenz-c" tabindex="-1" aria-labelledby="modalMbenzCLabel" aria-hidden="true">
+        <div class="modal fade" id="modal-citro-e-c3" tabindex="-1" aria-labelledby="modalCEC3Label" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content modal-content-custom">
                     <div class="modal-header header-custom">
-                        <h1 class="modal-title"> MERCEDES CLASSE C </h1>
-                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-mbenz-c">
+                        <h1 class="modal-title"> CITROËN E-C3 </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-citro-e-c3">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         
@@ -541,13 +541,13 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="image-container">
-                                   <img src="../ressources/cars/berlines/mbenz_classec.png" alt="mbenzc" class="img-fluid"> 
+                                   <img src="../ressources/cars/citadines/citroen-c3-e-.png" alt="citroec3" class="img-fluid"> 
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                     <div class="car-details">
-                                        <p class="card-subtitle">MERCEDES CLASSE C</p>
-                                        <p class="modal-car-price"> 60 / Jour</p>
+                                        <p class="card-subtitle">SUV compact électrique, confort et modernité.</p>
+                                        <p class="modal-car-price">72 € / Jour</p>
                                     </div>
                                     
                                     <div class="row">
@@ -586,7 +586,120 @@
                                                 <i class="fa-solid fa-horse-head"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Puissance</p>
-                                                    <p class="modal-car-detail-value">258ch</p>
+                                                    <p class="modal-car-detail-value">113ch</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gauge"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Vitesse max</p>
+                                                    <p class="modal-car-detail-value">135 km/h</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-snowflake"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Climatisation</p>
+                                                    <p class="modal-car-detail-value">Avec (Auto)</p>
+                                                </div>
+                                            </div>    
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <a href="success-rental.html">
+                                                <div class="modal-car-rental-button">
+                                                    <i class="fa-solid fa-calendar"></i>
+                                                    <p class="modal-car-rental-button-text">Réserver</p> 
+                                                </div>  
+                                            </a>
+                                        </div> 
+
+                                        <div class="col-md-6">
+                                            <div class="modal-car-contact-button">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <div>
+                                                    <p class="modal-car-contact-button-text">Nous Contacter</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- /////////////////////////////// BMW SERIE 1 ///////////////////////////////-->
+
+        <div class="modal fade" id="modal-bmw-s1" tabindex="-1" aria-labelledby="modalBMWS1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content modal-content-custom">
+                    <div class="modal-header header-custom">
+                        <h1 class="modal-title"> BMW SERIE-1 </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-bmw-s1">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="modal-body body-custom">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="image-container">
+                                   <img src="../ressources/cars/citadines/bmw_s1.png" alt="bmw_s1" class="img-fluid"> 
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                    <div class="car-details">
+                                        <p class="card-subtitle">Compacte premium, dynamique, plaisir de conduite.</p>
+                                        <p class="modal-car-price">85 € / Jour</p>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-users"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Passagers</p>
+                                                    <p class="modal-car-detail-value">5 passagers</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-door-closed"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Portes</p>
+                                                    <p class="modal-car-detail-value">5 portes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-gears"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Transmission</p>
+                                                    <p class="modal-car-detail-value">Manuelle</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="modal-car-specs">
+                                                <i class="fa-solid fa-horse-head"></i>
+                                                <div>
+                                                    <p class="modal-car-detail-text">Puissance</p>
+                                                    <p class="modal-car-detail-value">300ch</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -638,14 +751,14 @@
         </div>
     </div>
 
-            <!-- /////////////////////////////// MODAL AUDI A6 E-TRON ///////////////////////////////-->
+            <!-- /////////////////////////////// MODAL PEUGEOT 208 ///////////////////////////////-->
 
-        <div class="modal fade" id="modal-audi_a6" tabindex="-1" aria-labelledby="modalAudiA6Label" aria-hidden="true">
+        <div class="modal fade" id="modal-peugeot-208" tabindex="-1" aria-labelledby="modalpeugeot208Label" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content modal-content-custom">
                     <div class="modal-header header-custom">
-                        <h1 class="modal-title"> AUDI A6 E-TRON </h1>
-                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-audi_a6">
+                        <h1 class="modal-title"> PEUGEOT 208 </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-peugeot-208">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         
@@ -654,13 +767,13 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="image-container">
-                                   <img src="../ressources/cars/berlines/audi-a6-etron-2025.png" alt="audia6" class="img-fluid"> 
+                                   <img src="../ressources/cars/citadines/peugeot_208.png" alt="peugeot_208" class="img-fluid"> 
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                     <div class="car-details">
-                                        <p class="card-subtitle">AUDI A6 E-TRON</p>
-                                        <p class="modal-car-price"> 60 / Jour</p>
+                                        <p class="card-subtitle">Compacte polyvalente, bon rapport qualité/prix.</p>
+                                        <p class="modal-car-price">55 € / Jour</p>
                                     </div>
                                     
                                     <div class="row">
@@ -699,7 +812,7 @@
                                                 <i class="fa-solid fa-horse-head"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Puissance</p>
-                                                    <p class="modal-car-detail-value">503ch</p>
+                                                    <p class="modal-car-detail-value">100ch</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -709,7 +822,7 @@
                                                 <i class="fa-solid fa-gauge"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Vitesse max</p>
-                                                    <p class="modal-car-detail-value">210 km/h</p>
+                                                    <p class="modal-car-detail-value">188 km/h</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -751,14 +864,14 @@
         </div>
     </div>
 
-            <!-- /////////////////////////////// MODAL SKODA OCTAVIA ///////////////////////////////-->
+            <!-- /////////////////////////////// MODAL R5 ELECT ///////////////////////////////-->
 
-        <div class="modal fade" id="modal-octavia" tabindex="-1" aria-labelledby="modaloctaviaLabel" aria-hidden="true">
+        <div class="modal fade" id="modal_r5_elec" tabindex="-1" aria-labelledby="modalR5ELECLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content modal-content-custom">
                     <div class="modal-header header-custom">
-                        <h1 class="modal-title"> SKODA OCTAVIA </h1>
-                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-octavia">
+                        <h1 class="modal-title"> RENAULT 5 ELECTRIQUE </h1>
+                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal_r5_elec">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                         
@@ -767,126 +880,13 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="image-container">
-                                   <img src="../ressources/cars/berlines/skoda_octavia.png" alt="skoda_octavia" class="img-fluid"> 
+                                   <img src="../ressources/cars/citadines/r5_elec.png" alt="r5_elec" class="img-fluid"> 
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                     <div class="car-details">
-                                        <p class="card-subtitle">SKODA OCTAVIA</p>
-                                        <p class="modal-car-price"> 60 / Jour</p>
-                                    </div>
-                                    
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="modal-car-specs">
-                                                <i class="fa-solid fa-users"></i>
-                                                <div>
-                                                    <p class="modal-car-detail-text">Passagers</p>
-                                                    <p class="modal-car-detail-value">5 passagers</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <div class="modal-car-specs">
-                                                <i class="fa-solid fa-door-closed"></i>
-                                                <div>
-                                                    <p class="modal-car-detail-text">Portes</p>
-                                                    <p class="modal-car-detail-value">5 portes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <div class="modal-car-specs">
-                                                <i class="fa-solid fa-gears"></i>
-                                                <div>
-                                                    <p class="modal-car-detail-text">Transmission</p>
-                                                    <p class="modal-car-detail-value">Manuelle</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <div class="modal-car-specs">
-                                                <i class="fa-solid fa-horse-head"></i>
-                                                <div>
-                                                    <p class="modal-car-detail-text">Puissance</p>
-                                                    <p class="modal-car-detail-value">150ch</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <div class="modal-car-specs">
-                                                <i class="fa-solid fa-gauge"></i>
-                                                <div>
-                                                    <p class="modal-car-detail-text">Vitesse max</p>
-                                                    <p class="modal-car-detail-value">224 km/h</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4">
-                                            <div class="modal-car-specs">
-                                                <i class="fa-solid fa-snowflake"></i>
-                                                <div>
-                                                    <p class="modal-car-detail-text">Climatisation</p>
-                                                    <p class="modal-car-detail-value">Avec (Auto)</p>
-                                                </div>
-                                            </div>    
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <a href="success-rental.html">
-                                                <div class="modal-car-rental-button">
-                                                    <i class="fa-solid fa-calendar"></i>
-                                                    <p class="modal-car-rental-button-text">Réserver</p> 
-                                                </div>  
-                                            </a>
-                                        </div> 
-
-                                        <div class="col-md-6">
-                                            <div class="modal-car-contact-button">
-                                                <i class="fa-solid fa-phone"></i>
-                                                <div>
-                                                    <p class="modal-car-contact-button-text">Nous Contacter</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-            <!-- /////////////////////////////// MODAL CUPRA LEON ///////////////////////////////-->
-
-        <div class="modal fade" id="modal-cupra_leon" tabindex="-1" aria-labelledby="modalCupraLeonLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl modal-dialog-centered">
-                <div class="modal-content modal-content-custom">
-                    <div class="modal-header header-custom">
-                        <h1 class="modal-title"> CUPRA LEON </h1>
-                        <div class="modal-xcross" data-bs-dismiss="modal" data-bs-target="#modal-cupra_leon">
-                            <i class="fa-solid fa-xmark"></i>
-                        </div>
-                        
-                    </div>
-                    <div class="modal-body body-custom">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="image-container">
-                                   <img src="../ressources/cars/berlines/cupra-leon-2025.png" alt="cupraleon" class="img-fluid"> 
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                    <div class="car-details">
-                                        <p class="card-subtitle">CUPRA LEON</p>
-                                        <p class="modal-car-price"> 60 / Jour</p>
+                                        <p class="card-subtitle">Néo-rétro, 100% électrique, idéale centre-ville.</p>
+                                        <p class="modal-car-price">65 € / Jour</p>
                                     </div>
                                     
                                     <div class="row">
@@ -935,7 +935,7 @@
                                                 <i class="fa-solid fa-gauge"></i>
                                                 <div>
                                                     <p class="modal-car-detail-text">Vitesse max</p>
-                                                    <p class="modal-car-detail-value">214 km/h</p>
+                                                    <p class="modal-car-detail-value">150 km/h</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -967,6 +967,7 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
                             </div>
                         </div>
