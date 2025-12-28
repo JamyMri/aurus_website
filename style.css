@@ -76,7 +76,6 @@ a{
     position: absolute;   /* placement libre sur la page */
     left: 50%;
     transform: translateX(-50%);
-    pointer-events: none; /* optionnel, pour que le texte ne capture pas le passage du curseur */
     font-size: 25px;
 }
 
