@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               <input type="password" name="motDePasse" class="form-control" id="motDePasse" placeholder="Mot de Passe" required>
             </div>
             <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100">Se connecter</button></div>
-            <div id="emailHelp" class="form-text text-center mb-5 text-dark">Vous êtes nveau ?
+            <div id="emailHelp" class="form-text text-center mb-5 text-dark">Vous êtes nouveau ?
               <a href="register.php" class="text-dark fw-bold"> Créer un compte. </a>
             </div>
           </form>
@@ -79,4 +79,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
