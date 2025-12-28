@@ -17,8 +17,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->execute(['email' => $email]);
         $user = $stmt->fetch();
 
-        // CORRECTION ICI : 
-        // 1. On vérifie $user['motDePasse'] (nom exact de votre colonne)
+        
+        // 1. On vérifie $user['motDePasse']
         if ($user && password_verify($motDePasse, $user['motDePasse'])) {
             
             $_SESSION['user_id'] = $user['id'];
@@ -81,3 +81,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </body>
 
 </html>
+
